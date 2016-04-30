@@ -1,0 +1,33 @@
+h1 {text-align:center;}
+div#tablero{
+	width:235px;
+	height:235px; 
+	padding:0px; 
+	border: 5px solid #999; 
+	background-color:white; 
+	margin: 20px auto; 
+	cursor:pointer;
+}
+/*<!-- 
+595px 
+145px
+-->*/
+div#tablero div{
+	width:55px;
+	height:55px;
+	float:left; 
+	margin:0px; 
+	font-size: 50px; 
+	text-align:center;
+}
+div#celda1,div#celda2,div#celda3,div#celda4,div#celda5,div#celda6,div#celda7 ,div#celda8 ,div#celda9 ,div#celda10 ,div#celda11,div#celda12  {
+	border-bottom: 5px solid black;
+}
+div#celda1,div#celda2,div#celda3,div#celda5,div#celda6,div#celda7,div#celda9,div#celda10,div#celda11,div#celda13,div#celda14,div#celda15 {
+	border-right: 5px solid black;
+}
+div:hover {
+	background-color:#ddd; 
+}
+div#consola {width:220px;height:30px; padding:7px; border: 5px solid #999; background-color:white; margin: 10px auto; text-align:center; color:darkgreen; font-size: 10px;}
+

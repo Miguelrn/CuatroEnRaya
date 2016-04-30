@@ -1,0 +1,44 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cuatro en raya</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<script src="css/game.js"></script>
+</head>
+
+<script>
+    window.onload=function(){
+		var juego=new Juego();
+		
+		var celdas = document.getElementsByClassName("celda");
+		for (var i = 0; i < celdas.length; i++) {
+			celdas[i].onclick=function(e){
+				juego.logica(parseInt(this.getAttribute("celda")));
+			};
+		}console.log("Hola 2");
+
+	};
+</script>
+<body>
+    <!--<h1>Cuatro En Raya</h1>-->
+    <div id="tablero">
+        <div id="celda1" celda="0" class="celda"></div>
+        <div id="celda2" celda="1" class="celda"></div>
+        <div id="celda3" celda="2" class="celda"></div>
+        <div id="celda4" celda="3" class="celda"></div>
+        <div id="celda5" celda="4" class="celda"></div>
+        <div id="celda6" celda="5" class="celda"></div>
+        <div id="celda7" celda="6" class="celda"></div>
+        <div id="celda8" celda="7" class="celda"></div>
+        <div id="celda9" celda="8" class="celda"></div>
+		<div id="celda10" celda="9" class="celda"></div>
+		<div id="celda11" celda="10" class="celda"></div>
+		<div id="celda12" celda="11" class="celda"></div>
+		<div id="celda13" celda="12" class="celda"></div>
+		<div id="celda14" celda="13" class="celda"></div>
+		<div id="celda15" celda="14" class="celda"></div>
+		<div id="celda16" celda="15" class="celda"></div>
+    </div>
+    <div id="consola"></div>
+</body>
+</html>

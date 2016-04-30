@@ -1,0 +1,48 @@
+
+div#tablero{
+	width:90%;
+	height:60%;
+	padding:0px;
+	margin-top: 5%;
+	background-color:white; 
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+div#tablero canvas{
+	width:10.8%;
+	height:10.8%;
+	float:left; 
+	margin:0px; 
+	font-size: 50px; 
+	text-align:center;
+	background: #91ACFF;
+}
+
+
+canvas.celda_botton_der {
+	border-right: 5px solid white;
+	border-bottom: 5px solid white;
+}
+canvas.celda_der {
+	border-right: 5px solid white;
+}
+canvas.celda_botton {
+	border-bottom: 5px solid white;
+}
+/*canvas:hover {
+	background-color:#ddd; 
+}*/
+
+div#consola {
+    width:220px;
+    height:30px;
+    padding:7px;
+    border: 5px solid #999;
+    background-color:white;
+    margin: 20px auto;
+    text-align:center;
+    color:darkgreen;
+    font-size: 12px;
+}
+

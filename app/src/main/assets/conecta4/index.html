@@ -1,0 +1,82 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cuatro en raya</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <script src="css/game.js"></script>
+</head>
+
+<script>
+	var juego;
+	var N = 6;
+	var M = 8;
+    window.onload=function(){
+		juego = new Juego();
+	};
+	var mueve=function(i){
+		console.log("pos: "+i);
+		juego.logica(parseInt(i));
+	}
+</script>
+<body>
+<!--<h1>Cuatro En Raya</h1>-->
+<div id="tablero">
+
+    <canvas onclick="mueve(0)" id= "celda0" class="celda_botton_der" celda="0"></canvas>
+    <canvas onclick="mueve(1)" id= "celda1" class="celda_botton_der" celda="1"></canvas>
+    <canvas onclick="mueve(2)" id= "celda2" class="celda_botton_der" celda="2"></canvas>
+    <canvas onclick="mueve(3)" id= "celda3" class="celda_botton_der" celda="3"></canvas>
+    <canvas onclick="mueve(4)" id= "celda4" class="celda_botton_der" celda="4"></canvas>
+    <canvas onclick="mueve(5)" id= "celda5" class="celda_botton_der" celda="5"></canvas>
+    <canvas onclick="mueve(6)" id= "celda6" class="celda_botton_der" celda="6"></canvas>
+    <canvas onclick="mueve(7)" id= "celda7" class="celda_botton" celda="7"></canvas>
+
+    <canvas onclick="mueve(8)" id= "celda8" class="celda_botton_der" celda="8"></canvas>
+    <canvas onclick="mueve(9)" id= "celda9" class="celda_botton_der" celda="9"></canvas>
+    <canvas onclick="mueve(10)" id= "celda10" class="celda_botton_der" celda="10"></canvas>
+    <canvas onclick="mueve(11)" id= "celda11" class="celda_botton_der" celda="11"></canvas>
+    <canvas onclick="mueve(12)" id= "celda12" class="celda_botton_der" celda="12"></canvas>
+    <canvas onclick="mueve(13)" id= "celda13" class="celda_botton_der" celda="13"></canvas>
+    <canvas onclick="mueve(14)" id= "celda14" class="celda_botton_der" celda="14"></canvas>
+    <canvas onclick="mueve(15)" id= "celda15" class="celda_botton" celda="15"></canvas>
+
+    <canvas onclick="mueve(16)" id= "celda16" class="celda_botton_der" celda="16"></canvas>
+    <canvas onclick="mueve(17)" id= "celda17" class="celda_botton_der" celda="17"></canvas>
+    <canvas onclick="mueve(18)" id= "celda18" class="celda_botton_der" celda="18"></canvas>
+    <canvas onclick="mueve(19)" id= "celda19" class="celda_botton_der" celda="19"></canvas>
+    <canvas onclick="mueve(20)" id= "celda20" class="celda_botton_der" celda="20"></canvas>
+    <canvas onclick="mueve(21)" id= "celda21" class="celda_botton_der" celda="21"></canvas>
+    <canvas onclick="mueve(22)" id= "celda22" class="celda_botton_der" celda="22"></canvas>
+    <canvas onclick="mueve(23)" id= "celda23" class="celda_botton" celda="23"></canvas>
+
+    <canvas onclick="mueve(24)" id= "celda24" class="celda_botton_der" celda="24"></canvas>
+    <canvas onclick="mueve(25)" id= "celda25" class="celda_botton_der" celda="25"></canvas>
+    <canvas onclick="mueve(26)" id= "celda26" class="celda_botton_der" celda="26"></canvas>
+    <canvas onclick="mueve(27)" id= "celda27" class="celda_botton_der" celda="27"></canvas>
+    <canvas onclick="mueve(28)" id= "celda28" class="celda_botton_der" celda="28"></canvas>
+    <canvas onclick="mueve(29)" id= "celda29" class="celda_botton_der" celda="29"></canvas>
+    <canvas onclick="mueve(30)" id= "celda30" class="celda_botton_der" celda="30"></canvas>
+    <canvas onclick="mueve(31)" id= "celda31" class="celda_botton" celda="31"></canvas>
+
+    <canvas onclick="mueve(32)" id= "celda32" class="celda_botton_der" celda="32"></canvas>
+    <canvas onclick="mueve(33)" id= "celda33" class="celda_botton_der" celda="33"></canvas>
+    <canvas onclick="mueve(34)" id= "celda34" class="celda_botton_der" celda="34"></canvas>
+    <canvas onclick="mueve(35)" id= "celda35" class="celda_botton_der" celda="35"></canvas>
+    <canvas onclick="mueve(36)" id= "celda36" class="celda_botton_der" celda="36"></canvas>
+    <canvas onclick="mueve(37)" id= "celda37" class="celda_botton_der" celda="37"></canvas>
+    <canvas onclick="mueve(38)" id= "celda38" class="celda_botton_der" celda="38"></canvas>
+    <canvas onclick="mueve(39)" id= "celda39" class="celda_botton" celda="39"></canvas>
+
+    <canvas onclick="mueve(40)" id= "celda40" class="celda_botton_der" celda="40"></canvas>
+    <canvas onclick="mueve(41)" id= "celda41" class="celda_botton_der" celda="41"></canvas>
+    <canvas onclick="mueve(42)" id= "celda42" class="celda_botton_der" celda="42"></canvas>
+    <canvas onclick="mueve(43)" id= "celda43" class="celda_botton_der" celda="43"></canvas>
+    <canvas onclick="mueve(44)" id= "celda44" class="celda_botton_der" celda="44"></canvas>
+    <canvas onclick="mueve(45)" id= "celda45" class="celda_botton_der" celda="45"></canvas>
+    <canvas onclick="mueve(46)" id= "celda46" class="celda_botton_der" celda="46"></canvas>
+    <canvas onclick="mueve(47)" id= "celda47" celda="47"></canvas>
+
+</div>
+<div id="consola"></div>
+</body>
+</html>
